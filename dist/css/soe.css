@@ -1,0 +1,153 @@
+body
+{
+	background: url('../../../assets/img/bac1-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.whiteback
+{
+	background-color:white;
+	border-radius: 5px;
+}
+
+#ab
+{
+	color:black;
+}
+
+#spon
+{
+	color:black;
+}
+
+.navbar-inverse .navbar-nav>li>a
+{
+	color:white;
+}
+
+.navlink
+{
+	color:white;
+}
+
+.navlink:hover
+{
+	background-color: #457485;
+}
+
+.no-padding
+{
+	padding-right:0px;
+	padding-left:0px;
+}
+.container-fluid
+{
+	background: #103E50;
+}
+#sections_buttons
+{
+	margin-top:30px;
+	margin-bottom:30px;
+	width:100%;
+	font-size:19px;
+	font-weight:bold;
+}
+
+#record
+{
+	width:100%;
+	white-space:normal;
+	text-align:left;
+	height:95px;
+	border:0px;
+}
+
+
+.title
+{
+	color:#00008B;
+	height:25px;
+	font-family: arial,sans-serif;
+	font-size:18px;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	font-weight:bold;
+}
+
+.title
+{
+	color:#00008B;
+	height:25px;
+	font-family: arial,sans-serif;
+	font-size:18px;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	font-weight:bold;
+}
+
+.author
+{
+	/*font-weight:bold;*/
+	height:20px;
+	font-size:15px;
+}
+
+.author-single
+{
+	/*font-weight:bold;*/
+	/*height:20px;*/
+	font-size:17px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.white
+{
+	color:white;
+}
+
+.keyword
+{
+	padding-top:15px;
+	padding-bottom:15px;
+	font-size:17px;
+}
+
+#record:hover h4
+{
+	color:red;
+	font-size:18px;
+}
+
+#record:hover p
+{
+	color:#7A7A7A;
+}
+
+#schedule
+{
+	width:100%;
+	white-space:normal;
+	text-align:left;
+	height:140px;
+}
+
+.padding
+{
+	padding-left:30px;
+}
+
+.footerPage
+{
+	background: #103E50;
+	color:white;
+	margin-top:25px;
+}
