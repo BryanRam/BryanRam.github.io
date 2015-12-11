@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>Unity Web Player | 2DRoguelike</title>
+		<title>Unity Web Player | Space Shooter</title>
 		<script type='text/javascript' src='https://ssl-webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/jquery.min.js'></script>
 		<script type="text/javascript">
 		<!--
@@ -15,8 +15,8 @@
 		<script type="text/javascript">
 		<!--
 			var config = {
-				width: 960, 
-				height: 600,
+				width: 1024, 
+				height: 700,
 				params: { enableDebugging:"0" }
 				
 			};
@@ -56,7 +56,7 @@
 						break;
 					}
 				});
-				u.initPlugin(jQuery("#unityPlayer")[0], "RogueLikeWeb.unity3d");
+				u.initPlugin(jQuery("#unityPlayer")[0], "SpaceShooterWeb.unity3d");
 			});
 		-->
 		</script>
@@ -85,7 +85,7 @@
 		}
 		div.content {
 			margin: auto;
-			width: 960px;
+			width: 1024px;
 		}
 		div.broken,
 		div.missing {
@@ -109,13 +109,12 @@
 		}
 		div#unityPlayer {
 			cursor: default;
-			height: 600px;
-			width: 960px;
+			height: 700px;
+			width: 1024px;
 		}
 		-->
 		</style>
-		
-		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
         <!-- Include roboto.css to use the Roboto web font, material.css to include the theme and ripples.css to style the ripple effect -->
         <link href="../dist/css/roboto.min.css" rel="stylesheet">
         <link href="../dist/css/material.min.css" rel="stylesheet">
@@ -167,7 +166,7 @@
                   </ul> -->
                 </div>
               </div>
-		<p class="header"><span>Unity Web Player | </span>2DRoguelike</p>
+		<p class="header"><span>Unity Web Player | </span>Space Shooter</p>
 		<div class="content">
 			<div id="unityPlayer">
 				<div class="missing">
