@@ -17,3 +17,4 @@ $(function(){
 			doc.className = doc.className + " active";
 			break;
 		  }
+}
