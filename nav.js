@@ -1,5 +1,5 @@
 $(function(){
-		  $("#includedContent").load("~/navigation-bar.html"); 
+		  $("#includedContent").load("bryanram.github.io/navigation-bar.html"); 
 		  var sPath = window.location.pathname;
 		  var sPage = sPath.substring(sPath.indexOf('/'), sPath.lastIndexOf('/'));
 		  switch(sPage)
