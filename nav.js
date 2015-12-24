@@ -1,7 +1,7 @@
 $(function(){
 		  $("#includedContent").load("navigation-bar.html"); 
 		  var sPath = window.location.pathname;
-		  var sPage = sPath.substring(sPath.IndexOf('/'), sPath.lastIndexOf('/'));
+		  var sPage = sPath.substring(sPath.indexOf('/'), sPath.lastIndexOf('/'));
 		  switch(sPage)
 		  {
 			case "index.html":
