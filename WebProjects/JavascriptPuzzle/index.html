@@ -154,11 +154,13 @@
 		if(e.layerX || e.layerX == 0)
 		{
 			_mouse.x = e.layerX - _canvas.offsetLeft;
+			//_mouse.y = e.layerY - _canvas.offsetTop;
 			_mouse.y = e.layerY;
 		}
 		else if(e.offsetX || e.offsetX == 0)
 		{
 			_mouse.x = e.offsetX - _canvas.offsetLeft;
+			//_mouse.y = e.offsetY - _canvas.offsetTop;
 			_mouse.y = e.offsetY;
 		}
 		
@@ -254,12 +256,15 @@
 		if(e.layerX || e.layerX == 0)
 		{
 			_mouse.x = e.layerX - _canvas.offsetLeft;
-			_mouse.y = e.layerY - _canvas.offsetTop;
+			//_mouse.y = e.layerY - _canvas.offsetTop;
+			_mouse.y = e.layerY;
+			
 		}
 		else if(e.offsetX || e.offsetX == 0)
 		{
 			_mouse.x = e.offsetX - _canvas.offsetLeft;
-			_mouse.y = e.offsetY - _canvas.offsetTop;
+			//_mouse.y = e.offsetY - _canvas.offsetTop;
+			_mouse.y = e.offsetY;
 		}
 		
 		
