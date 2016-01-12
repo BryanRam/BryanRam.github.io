@@ -103,7 +103,7 @@
 				xPos = 0;
 				yPos += _pieceHeight;
 			}
-			window.alert(piece.sy);
+			//window.alert(piece.sy);
 		}
 		
 		document.onmousedown = shufflePuzzle;
@@ -154,15 +154,15 @@
 		if(e.layerX || e.layerX == 0)
 		{
 			_mouse.x = e.layerX - _canvas.offsetLeft;
-			_mouse.y = e.layerY - _canvas.offsetTop;
+			_mouse.y = e.layerY;
 		}
 		else if(e.offsetX || e.offsetX == 0)
 		{
 			_mouse.x = e.offsetX - _canvas.offsetLeft;
-			_mouse.y = e.offsetY - _canvas.offsetTop;
+			_mouse.y = e.offsetY;
 		}
 		
-		window.alert(_mouse.y);
+		//window.alert(_mouse.y);
 		
 		/*We then immediately set _currentPiece to the returned value from our 
 		checkPieceClicked() function. We separate this code because we want to use it later 
