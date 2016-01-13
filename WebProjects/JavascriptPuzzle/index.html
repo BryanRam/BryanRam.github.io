@@ -108,11 +108,13 @@
 		
 		//document.onmousedown = shufflePuzzle;
 		document.getElementById("canvas").addEventListener("click", shufflePuzzle);
+		document.getElementById("canvas").addEventListener("touchstart", shufflePuzzle);
 	}
 	
 	function shufflePuzzle()
 	{
 		document.getElementById("canvas").removeEventListener("click", shufflePuzzle);
+		document.getElementById("canvas").removeEventListener("touchstart", shufflePuzzle);
 		_pieces = shuffleArray(_pieces);
 		_stage.clearRect(0, 0, _puzzleWidth, _puzzleHeight);
 		var i;
@@ -136,6 +138,7 @@
 			
 		}
 		document.onmousedown = onPuzzleClick;
+		document.getElementById("canvas").addEventListener("touchstart", onPuzzleClick);
 	}
 	
 	function shuffleArray(o)
@@ -215,6 +218,9 @@
 			_stage.restore();
 			document.onmousemove = updatePuzzle;
 			document.onmouseup = pieceDropped;
+			
+			document.getElementById("canvas").addEventListener("touchmove", updatePuzzle);
+			document.getElementById("canvas").addEventListener("touchend", pieceDropped);
 		}
 	}
 	
@@ -361,6 +367,9 @@
 		document.onmousemove = null;
 		document.onmouseup = null;
 		
+		document.getElementById("canvas").removeEventListener("touchmove", updatePuzzle);
+		document.getElementById("canvas").removeEventListener("touchend", pieceDropped);
+		
 		/*
 		Next, check that _currentDropPiece is not null. If it is, this means that we dragged 
 		it back to the piece's home area and not over another slot. If it’s not null, we continue 
@@ -430,6 +439,7 @@
 		document.onmouseup = null;
 		
 		document.getElementById("canvas").addEventListener("click", shufflePuzzle);
+		document.getElementById("canvas").addEventListener("touchstart", shufflePuzzle);
 		
 		initPuzzle();
 	}
