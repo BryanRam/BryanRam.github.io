@@ -106,11 +106,13 @@
 			//window.alert(piece.sy);
 		}
 		
-		document.onmousedown = shufflePuzzle;
+		//document.onmousedown = shufflePuzzle;
+		document.getElementById("canvas").addEventListener("click", shufflePuzzle);
 	}
 	
 	function shufflePuzzle()
 	{
+		document.getElementById("canvas").removeEventListener("click", shufflePuzzle);
 		_pieces = shuffleArray(_pieces);
 		_stage.clearRect(0, 0, _puzzleWidth, _puzzleHeight);
 		var i;
@@ -426,6 +428,9 @@
 		document.onmousedown = null;
 		document.onmousemove = null;
 		document.onmouseup = null;
+		
+		document.getElementById("canvas").addEventListener("click", shufflePuzzle);
+		
 		initPuzzle();
 	}
     </script>
