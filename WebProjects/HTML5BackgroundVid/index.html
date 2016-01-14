@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Background Video</title>
+    
+	<!--[if lt IE 9]>
+<script>
+	document.createElement('video');
+</script>
+<![endif]-->
+	
+	 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Include roboto.css to use the Roboto web font, material.css to include the theme and ripples.css to style the ripple effect -->
+        <link href="../../dist/css/roboto.min.css" rel="stylesheet">
+        <link href="../../dist/css/material.min.css" rel="stylesheet">
+        <link href="../../dist/css/ripples.min.css" rel="stylesheet">
+		<link href="backgroundvid.css" rel="stylesheet">
+</head>
+ 
+<body>
+	<h1>BryanRam's Stuff</h1>
+	
+	<div class="navbar navbar-default" id="includedContent"> 
+		<!--load html navigation bar through javascript here -->
+    </div>           
+
+	<div >
+	<button id="vidpause">Pause</button>
+	<video autoplay loop poster="Dead+Fantasy+3_x264.jpg" id="bgvid">
+    <source src="Dead+Fantasy+3_x264.webm" type="video/webm">
+    <source src="Dead+Fantasy+3_x264.mp4" type="video/mp4">
+	</video>
+    
+	</div>
+	
+	
+	<footer>
+    	<h4><a href="mailto:bryan_ram@hotmail.com">Email</a></strong></h4>
+       	<h4><strong><a href="https://github.com/bryanram">github.com/bryanram</a></strong></h4>
+	</footer>
+
+    <!-- Your site ends -->
+
+   
+   <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+    <script src="../../dist/js/ripples.min.js"></script>
+    <script src="../../dist/js/material.min.js"></script>
+    <script>
+            $(document).ready(function() {
+                // This command is used to initialize some elements and make them work properly
+                $.material.init();
+            });
+    </script>
+		
+	<script src="/nav.js"></script>
+	
+	<script>
+	var vid = document.getElementById("bgvid"),
+	pauseButton = document.getElementById("vidpause");
+	
+	function vidFade() {
+		vid.classList.add("stopfade");
+	}
+	
+	vid.addEventListener('ended', function() {
+		// only functional if "loop" is removed 
+		 vid.pause();
+		// to capture IE10
+		vidFade();
+	});
+	
+	pauseButton.addEventListener("click", function() {
+		vid.classList.toggle("stopfade");
+		if (vid.paused) {
+	vid.play();
+			pauseButton.innerHTML = "Pause";
+		} else {
+			vid.pause();
+			pauseButton.innerHTML = "Paused";
+		}
+	})
+	</script>
+</body>
+ 
+</html>
