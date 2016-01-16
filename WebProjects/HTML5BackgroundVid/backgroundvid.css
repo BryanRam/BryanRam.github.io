@@ -43,6 +43,7 @@ video { display: block; }
     }
     #bgvid {
         display: none;
+		width: 100%;
     }
 	
 	
