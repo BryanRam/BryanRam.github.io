@@ -4,6 +4,7 @@
 
 .dropdown-submenu{
 	position:relative;
+	overflow: visible;
 }
 
 .dropdown-submenu>.dropdown-menu{
