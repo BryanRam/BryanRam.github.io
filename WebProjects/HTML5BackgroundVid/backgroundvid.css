@@ -21,7 +21,7 @@ video#bgvid {
 
 video { display: block; }
 
-.navbar{
+#includedContent{
 background: rgba(0,0,0,0.3);
 }
 
