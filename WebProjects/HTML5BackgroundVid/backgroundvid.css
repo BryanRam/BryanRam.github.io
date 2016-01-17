@@ -21,6 +21,10 @@ video#bgvid {
 
 video { display: block; }
 
+.navbar{
+background: rgba(0,0,0,0.3);
+}
+
 #content {
     font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
     font-weight: 100;
