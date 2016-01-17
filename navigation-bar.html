@@ -19,16 +19,7 @@
 						<li><a href="/WebProjects/JavascriptPuzzle">Javascript Puzzle</a></li>
 						<li><a href="/WebProjects/HTML5BackgroundVid">HTML5 Background Video</a></li>
 						
-						<li class="divider"></li>
-						
-                            <li class="dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Cave Hill Webpage Designs</a>
-								<ul class="dropdown-menu">
-									<li><a href="#">ESL</a></li>
-									<li><a href="#">Research Support</a></li>
-									<li><a href="#">Student Admissions</a></li>
-									<li><a href="#">ARMP</a></li>
-								</ul>
-							</li>
+						                           
 						
 						</ul>
 					</li>
@@ -46,6 +37,16 @@
                         <li><a href="javascript:void(0)">One more separated link</a></li> -->
                       </ul>
                     </li>
+					
+					<li class="dropdown" id="uwi">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">UWI Designs</a>
+						<ul class="dropdown-menu">
+							<li><a href="/UWIDesigns/ESL">ESL</a></li>
+							<li><a href="/UWIDesigns/ResearchSupport">Research Support</a></li>
+							<li><a href="/UWIDesigns/StudentAdmissions">Student Admissions</a></li>
+							<li><a href="/UWIDesigns/ARMP">ARMP</a></li>
+						</ul>
+					</li>
                   </ul>
                   <!--<form class="navbar-form navbar-left">
                     <input type="text" class="form-control col-lg-8" placeholder="Search">
@@ -81,6 +82,11 @@
 			
 			case "/Games":
 			var doc = document.getElementById("game");
+			doc.className = doc.className + " active";
+			break;
+			
+			case "/UWIDesigns":
+			var doc = document.getElementById("uwi");
 			doc.className = doc.className + " active";
 			break;
 		  }

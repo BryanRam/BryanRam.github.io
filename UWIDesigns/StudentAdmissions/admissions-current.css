@@ -1,0 +1,653 @@
+/*delete*/
+.hpage-content-container{float:left;}
+.hpage-content{
+ color:#333333; 
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height: 150%;
+	font-weight:normal;
+padding:5px; text-align:justify; width:300px;height:330px}
+#body-container{width:960px;}
+ #disclaimer
+    {
+        border: 1px solid #f78429;
+        background-color: #f9f4e1;
+padding:5px;
+    }
+#content_leftbacker{background:transparent url(../images/layout/left_col_bg2.aspx) repeat-y; }
+#containerdiv{margin:0 auto; height:100%; width:960px;}
+#leftcoldiv{ min-height:500px;float: left;width: 185px;height:100%;line-height:20px;}
+#midcoldiv {min-height:500px;float: left;width:564px;height:100%;margin: 0px; padding:5px;line-height:22px;}
+#midcoldiv-programmes {min-height:500px;float: left;width:764px;height:100%;margin: 0px; padding:5px;line-height:22px;}
+
+#rightcoldiv{min-height:500px;float: right;width:192px;height:100%;line-height: 20px;margin:0px;}
+#midcolcontainer #body-maincontent {font-size:12px; }
+#body-maincontent ul li{list-style-type: disc;margin-left:20px; color:#000;}
+#body-maincontent ol  li{list-style-type:decimal;margin-left:1px;}
+#footerbar{clear:both; background-color:#D6D6D6; height:35px; margin-left:0px; width:960px; text-align:center;}
+#rightbacker{background:transparent url(../images/layout/right_col_bg.aspx) 764px 92%  repeat-y;}
+#body-maincontent{padding:5px;}
+/*delete*/
+
+/* Programme Application */
+  .title-header
+        {
+            border: 1px solid #A0B6D2;
+            width: 718px;
+            height: 38px;
+        }
+        .major-heading
+        {
+            float: left;
+            width: 480px;
+            padding: 2px;
+            font-weight: bold;
+            font-size: 15px;
+            background-color: #F1F5FA;
+            height: 35px;
+            border: 0px solid red;
+        }
+        .programme-heading
+        {
+            float: left;
+            width: 235px;
+            padding: 2px;
+            font-weight: bold;
+            font-size: 15px;
+            background-color: #F1F5FA;
+            height: 35px;
+        }
+        .faculty-heading
+        {
+            float: left;
+            width: 230px;
+            padding: 2px;
+            font-weight: bold;
+            font-size: 15px;
+            background-color: #F1F5FA;
+            height: 35px;
+            border: 0px solid blue;
+        }
+        .selectprogramme
+        {
+            padding-bottom: 15px;
+        }
+        .result-container
+        {
+            background-color: #FAFAE2;
+            border: 1px solid #A0B6D2;
+            width: 718px;
+            clear: both;
+            height: 35px;
+        }
+        .result-container-alt
+        {
+            background-color: #F1F5FA;
+            border: 1px solid #A0B6D2;
+            width: 718px;
+            clear: both;
+            height: 35px;
+        }
+        .major
+        {
+            float: left;
+            width: 470px;
+            padding: 2px;
+            font-weight: bold;
+        }
+        .programme
+        {
+            float: left;
+            width: 235px;
+            padding: 2px;
+        }
+        .faculty
+        {
+            float: right;
+            width: 235px;
+            padding: 2px;
+            border: 0px solid red;
+        }
+/*End Programme Application*/
+
+
+
+
+
+/* CSS Document */
+
+/* ----------Layout Styles--------- */
+
+
+#pageContainer 
+{
+	width: 960px;
+	height: 100%;
+	background-color: #ffffff;
+	margin:0;
+	padding:0;
+}
+
+#PageTitleText{color:#353535;font-weight:bold; font-size:20px;font-family: Georgia, "Times New Roman", Times, serif; }
+
+
+#bodytext
+
+    {   color:#333333; 
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height: 150%;
+	font-weight:normal;
+	text-align:left;
+	padding: 2px;
+	margin: 5px;
+      
+
+}
+
+#topNav 
+{
+	width: 960px;
+	background-color: #D7D6D6;
+	margin:0px;
+	padding:0px 0px;
+	height:50px;
+
+}
+
+#pageHeader_photo 
+{
+	width: 960px; 
+	height: 200px;
+	background-color:#969696;
+	padding:2px 0 2px 0;
+visibility:hidden;
+}
+
+#contentArea
+{
+width: 960px;
+height: 100%;
+border:1px solid;
+display:block;
+}
+	
+
+#MainContent
+{
+	width: 576px;
+	background-color: #FFF;
+	float: left;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 100%;
+	display:block;
+}
+
+#leftNav_column
+{
+	width: 172px;
+	float: left;
+	padding-right: 10px;
+	height: 100%;
+	display:block;
+}
+
+#rightNav_column
+{
+	width: 167px;
+	background-image: url(../images/layout/left_col_bg3.aspx);
+	background-repeat:repeat-y;
+	float: right;
+	padding-left:11px;
+	padding-top: 6px;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #f68427;
+	font-size:14pt;
+	font-weight: bold;
+	height: 100%;
+	display:block;
+}
+#student_video IMG
+{margin-left:auto;
+margin-right:auto;
+display:block;
+border:0px;
+}
+
+#student_video
+{
+	border-bottom: 1px;
+	border-bottom-color:#000000;
+	border-bottom-style:dotted;
+	padding-bottom:10px;
+}
+
+#apply_now
+{
+	text-align:center;
+	border-bottom: 1px;
+	border-bottom-color:#000000;
+	border-bottom-style:dotted;
+	padding-bottom:10px;
+}
+
+#page_Footer
+{
+	width: 956px;
+	height: 26px;
+	background-color: #D6D6D6;
+	border-top:1px solid #ACACAC;
+	text-align:center;
+	font-weight:bold;
+	font-size:10px;
+	color:#353535;
+	padding:2px;
+}
+
+
+/* -----------Text and Font classes---------- */
+
+/*top menu begin*/
+.topMenu{
+    border:none;
+    border:0px;
+    margin:0px;
+    padding:0px;
+    font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    }
+
+.topMenu ul{
+    height:35px;
+    list-style:none;
+    margin:0;
+    padding:0;
+    }
+
+    .topMenu li{
+        float:left;
+ 	width:160px;
+	margin:0px;
+	padding:0px;
+        }
+
+    .topMenu li a{
+          color:#6A6A6A;
+        display:block;
+   line-height:35px;
+ background:#D7D6D6 url("../Images/Layout/seperator.aspx") bottom right no-repeat;
+
+        font-weight:normal;
+          
+        margin:0px;
+   	padding:0px 5px;
+        text-align:center;
+        text-decoration:none;
+	font-weight:bold;
+	font-size:12px;
+        }
+
+        .topMenu li a:hover, .topMenu ul li:hover a{
+            background: #716F6F;
+            color:#ffffff;
+            text-decoration:none;
+            }
+
+    .topMenu li ul{
+        background:#333333;
+        display:none;
+        height:auto;
+        padding:0px;
+        margin:0px;
+        border:0px;
+        position:absolute;
+        width:160px;
+        z-index:200;
+        /*top:1em;
+        /*left:0;*/
+        }
+    .topMenu li:hover ul{
+        display:block;
+      
+        }
+    .topMenu li li {
+        display:block;
+        float:none;
+        margin:0px;
+        padding:0px;
+        width:145px;
+        }
+
+    .topMenu li:hover li a{
+        background:none;
+        color:#ffffff;
+        }
+
+    .topMenu li ul a{
+        display:block;
+        height:30px;
+        font-size:12px;
+        font-style:normal;
+        margin:0px;
+        padding:0px 10px 0px 15px;
+        text-align:left;
+        }
+        .topMenu li ul a:hover, .topMenu li ul li:hover a{
+            border:0px;
+            color:#000000;
+            text-decoration:none;
+            }
+/*end top menu*/
+
+.nav li 
+{	border-bottom: 1px dotted #fff;
+	color: #FFF;
+	list-style-type: none;
+	font-size: 14px;
+	margin-top: 6px;
+	padding:4px; 
+	width: 165px;
+}
+.nav li a 
+{
+	color: #FFF;
+	list-style-type: none;
+	font-size: 14px;
+	font-weight:bold;
+	margin-top: 6px;
+	margin-left:5px;
+	text-decoration:none;
+}
+
+.nav li a:hover 
+{
+	color: #FFFF00;
+	list-style-type: none;
+	font-size: 14px;
+	margin-top: 6px;
+	margin-left:5px;
+	text-decoration:none;
+}
+
+.nav li a:visited 
+{	color: fff;
+	list-style-type: none;
+	font-size: 14px;
+	margin-top: 6px;
+	margin-left:5px;
+	text-decoration:none;
+}
+
+.headerboxes{margin:0px; padding:0px;} 
+/*#Header Search Box CSS Important # */
+#headersearch1{width:335px;border:0px solid #0f0;height:33px;margin-bottom:20px;margin-left:23px;padding-bottom:0px;}
+
+/* changed .content in secondary_cavehill.css to .content_body*/
+.content_body{
+	top: 0px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto; 	/* opera does not like 'margin:20px auto' */
+	background-color: transparent;
+	border: 0px solid #f00;
+	text-align: left; /* part 2 of 2 centering hack */
+	width: 960px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	height: 100%;
+}
+
+/* changed html>body .content in secondary_cavehill.css to html>body .content_body*/
+
+html>body .content_body {
+	width: 960px; /* ie5win fudge ends */
+}
+
+/* changed footerrightcol in secondary.css to footerrightcolnew*/
+#footerrightcolnew {
+	float: left;
+	display: inline;
+	background-color: transparent;
+	border: 0px solid #f00;
+	border-right: 0px solid #f00;
+	text-align: right;
+	width: 620px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+/* changed headercol1 in secondary.css to headercol01 */
+#headercol01 {
+  	margin: 11px 0px 0px 0px;
+	border: 0px solid #fff;
+	height: 90px; 
+	width: 560px;
+	float: left; display: inline;
+	}
+	
+/* changed row1container in secondary.css to row1container01 */
+#row1container01 
+{
+padding: 0px;
+margin: 0px;
+border: 0px;
+width: 100%;
+background-image: url(../images/layout/bkg.aspx);
+height:100%;
+}
+
+
+/********** Beginning of layout structure **********/
+
+#mainContainer
+{
+	/* Purpose: Sets the Width for the entire layout structure */
+	width:960px; 
+	height:100%;
+	background-color:#fff;
+padding:0px;
+margin:0px;
+}
+
+#mainBodyContainer
+{
+	/* Purpose: Sets the width for the entire body content area */
+	width:960px;
+}
+
+
+#adminHeading
+{
+	/* Purpse: Styles the area for the top admissions heading */
+	width:960px;
+	height:70px;
+}
+
+#mainPhoto
+{
+	/* Syles the area for the main admissions photo*/
+	width: 960px;
+	height: 200px;
+}
+
+#mainHeadingsContainer
+{
+	/*Purpose: Sets the width and height for the the three main headings area */	
+	width:960px;
+	height:50px;
+}
+
+#underGradHeading
+{
+	/* Purpose: Syles the Undergraduate Heading area */
+	
+	width: 320px;
+	height: 50px;
+	float: left;
+	background-color:#f68528;
+}
+
+#gradHeading
+{
+	/* Purpose: Styles the Graduate Heading area */
+	
+	width: 320px;
+	height: 50px;
+	float: left;
+	background-color: #c32445;
+}
+
+#internatHeading
+{
+	/* Purpose: Styles the International Students Heading area */
+	
+	width: 320px;
+	height: 50px;
+	float: left;
+	background-color:#4c7bb3;
+}
+
+#contentmainArea
+{
+	/* Purpose: Sets the width for the main content area */
+	width:960px;
+
+
+}
+
+.unitContentArea
+{
+	/*Purpose: Styles the three content sections for Undergrad, Graduate and Int. Students */
+	
+	width: 320px;
+	height: 390px;
+	float:left;
+	
+	/* To create a space between the content area and the dotted lines */
+	padding-top: 5px;
+	padding-bottom: 5px; 
+
+}
+
+#imageLinks
+{
+	/* Purpose:Syles the area where the three image links are situated */
+	
+	width:960px;
+	height: 80px;
+	padding: 8px;
+	padding-bottom:14px;
+}
+
+.unitImageLink
+{
+	/* Purpose: Styles the area of each of the three image links */
+	
+	width:312px;
+	height: 80px;
+	float: left;
+	padding-top: 20px;
+	padding-right: 8px
+	
+}
+
+.unitImageLink img
+{
+	border: 1px solid black;
+}
+
+.strips
+{
+	/*Purpose: Sets the width and height of the area for two strips (Plain Yellow and multi-coloured) */
+	
+	width:960px;
+	height: 10px;
+}
+
+
+.dottedBorder1
+{
+	/* Styles the dotted border located within the unitContent area */
+	
+	border: 1px dotted #666666;
+	height: 100%;
+	float: right;
+
+}
+
+.dottedBorder2
+{
+	/* Syles the dotted border located within the Image links area */
+	
+	border: 1px dotted #666666;
+	height: 72px;
+	float: right;
+	
+}
+
+.clear
+{
+	/* Caters towards any clearing of styles which is necessary to have the correct layout structure */
+	
+	clear:both;
+	margin: 0px;
+	padding:0px;
+}
+
+/********** Ending of layout Structure **********/
+
+
+
+/*************** Beginning of Text Styles ****************/
+
+.mainTitles
+{
+	/* Applies Text styles to the main headings: Undergrad, graduate and international */
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 27pt;
+	color:#fff;
+	text-align:center;
+}
+
+.mainTitles a
+{
+	/* Applies Text styles to the main headings: Undergrad, graduate and international */
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 27pt;
+	color:#fff;
+	text-align:center;
+}
+
+.mainTitles a:link
+{
+	/* Applies Text styles to the main headings: Undergrad, graduate and international */
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 27pt;
+	color:#fff;
+	text-align:center;
+}
+	
+.mainTitles a:visited
+{
+	/* Applies Text styles to the main headings: Undergrad, graduate and international */
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 27pt;
+	color:#fff;
+	text-align:center;
+}

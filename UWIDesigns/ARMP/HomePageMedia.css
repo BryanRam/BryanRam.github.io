@@ -1,0 +1,236 @@
+@charset "utf-8";
+@media screen and (max-width:320px){
+#pageHeader {
+	font-family: Arial, Gadget, sans-serif;
+	font-size: 27px;
+	
+	margin-left: 3%;
+	margin-top: 25px;
+	color: #662D91;
+	font-weight: bold;
+}
+
+div.body{
+	box-shadow: 0px 0px 10px 3px black;
+}
+
+
+.body{background-color: blue;
+      margin-left: auto;
+	  margin-right: auto;
+	  width: 960px;
+	  
+	  
+}
+
+.background{background-color: #662D91;
+            margin-left:auto;
+			margin-right:auto;
+            width: 1024px;
+			height: auto;
+}
+
+.header{padding: 1%;
+        width: 960px;
+		margin-left: 5px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+}
+
+.spacing{margin-right: 7px;
+box-shadow: 3px 3px 1px 1px grey;
+         
+}
+
+#nav-menu ul{
+ list-style:none;
+ padding: 0;
+ margin: 0;
+ } 
+ 
+ #nav-menu li
+ {
+ float: left;
+ margin: 0 0.04em;
+ background: #FCB03F;
+ font-family: Arial;
+ font-size: 14px;
+ height: 2.5em;
+ line-height: 1em;
+ float: left;
+ width: 12.35%;
+ display: block;
+ border: 0.01em solid #000000;
+ color: #000000;
+ text-decoration: none;
+ text-align: center;
+ padding-top: 1%;
+ 
+ } 
+ 
+ #nav-menu li a
+ {
+ background: #FCB03F;
+ height: 2em;
+ line-height: 2em;
+ float: left;
+ width: 9em;
+ display: block;
+ border: 0.1em solid #dcdce9;
+ color: #0d2474;
+ text-decoration: none;
+ text-align: center;
+ } 
+ 
+ 
+ #top-section ul{
+ list-style:none;
+ padding: 0.01%;
+ margin: 0.01%;
+ } 
+ 
+ #top-section li
+ {
+ float: left;
+ background: #FFFFFF;
+ font-family: Arial;
+ font-size: 14px;
+ height: 250px;
+ width: 479px;
+ display: block;
+ border: 0.1px solid #000000;
+ color: #000000;
+ text-decoration: none;
+  
+ 
+ } 
+ 
+ /*#top-section li a
+ {
+ background: #FCB03F;
+ height: 2em;
+ line-height: 2em;
+ float: left;
+ width: 474px;
+ display: block;
+ border: 0.1em solid #dcdce9;
+ color: #0d2474;
+ text-decoration: none;
+ text-align: center;
+ } */
+ 
+ #bottom-section ul{
+ list-style:none;
+ padding: 0;
+ margin: 0;
+ } 
+ 
+ #bottom-section li
+ {
+ float: left;
+ margin: 0 0.04em;
+ background: #FFFFFF;
+ font-family: Arial;
+ font-size: 14px;
+ height: 270px;
+ width: 478px;
+ display: block;
+ border: 0.01em solid #000000;
+ color: #000000;
+ text-decoration: none;
+ 
+ 
+ 
+ } 
+ 
+ /*#bottom-section li a
+ {
+ background: #FCB03F;
+ height: 2em;
+ line-height: 2em;
+ float: left;
+ width: 9em;
+ display: block;
+ border: 0.1em solid #dcdce9;
+ color: #0d2474;
+ text-decoration: none;
+ text-align: center;
+ } 
+
+.navigation{font-family: Arial;
+            font-size: 12px;
+			background-color: #FCB03F;
+			border: 2px solid #FCB03F;
+}
+
+.logos{background-color: #662D91;
+	   font-family: Arial, Gadget, sans-serif;
+	   font-size: 14px;
+	   
+      }*/
+	  
+.headers{font-family: Arial, Gadget, sans-serif;
+	     font-size: 26px;
+		 width: 98%;
+	     color: #FCB03F;
+		 padding-left: 1%;
+		/* background-color: #F1F1F7;*/
+		 
+		 }
+		 
+/*.logoborders{border: 15px solid #662D91;
+             border-left: 15px solid;
+        border-bottom: 15px solid;
+		border-top: 15px solid;
+		border-top-color: #662D91;
+	    border-bottom-color: #662D91;	
+	    border-left-color: #662D91; 
+}	  
+
+.right{border-right: 15px solid;
+	  border-right-color: #662D91;
+	  }
+.corner{border-right: 15px solid;
+        border-bottom: 15px solid;
+		border-top: 15px solid;
+		border-top-color: #662D91;
+	    border-bottom-color: #662D91;	
+	    border-right-color: #662D91;
+		}
+
+
+
+.bottom{border-bottom: 15px solid;
+	   border-bottom-color: #662D91;
+	   border-left: 15px solid;
+		border-left-color: #662D91;
+	}*/
+td{background-color:#ffffff;}
+p {font-family: Arial, Gadget, sans-serif;
+   font-size: 14px;
+   margin-right: 5px;
+   margin-left: 5px;
+  }
+  
+/*.footer{
+	margin-right: auto;
+   margin-left: auto;
+   background-color:#E5822F; 
+   width: 960px;
+   height: 40px;
+}
+
+.foottext{font-family: Arial, Regular;
+   font-size: 11.25px;
+   
+   margin-right: 5px;
+   margin-left: 5px;
+}*/
+  
+.highlight {
+	color: #F60;
+	font-weight: bold;
+}  
+/* CSS Document */
+
+}
