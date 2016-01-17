@@ -1,4 +1,3 @@
-<script>
 function myFunction() {
     var newscript = document.getElementsByTagName("head")[0];
     newscript.innerHTML =
@@ -11,4 +10,3 @@ newscript.innerHTML + '\n' +
 '<link href="/dist/css/submenu.css" rel="stylesheet">'
 + '\n';
 }
-</script>
