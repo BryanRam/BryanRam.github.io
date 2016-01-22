@@ -2,7 +2,7 @@
 /* CSS Document */
 
 @media screen and (min-width:250px) and (max-width:349px){
-	.nav{
+	.navi{
 		display:none;
 	}
 	
@@ -62,7 +62,7 @@
 
 
 @media screen and (min-width:350px) and (max-width:480px){
-	.nav{
+	.navi{
 		display:none;
 	}
 	
@@ -120,7 +120,7 @@
 }
 
 @media screen and (min-width:481px) and (max-width:610px){
-	.nav{
+	.navi{
 		font-size:12.5px;;
 		display: none;
 	}
