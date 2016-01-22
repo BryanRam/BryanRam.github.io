@@ -94,7 +94,8 @@ div.body{
  font-family: Arial;
  font-size: 14px;
  height: 240px;
- width: 479px;
+ /*width: 479px;*/
+ width: 49.6%;
  display: block;
  border: 0.1px solid #000000;
  color: #000000;
@@ -131,7 +132,8 @@ div.body{
  font-family: Arial;
  font-size: 14px;
  height: 240px;
- width: 478px;
+ /*width: 478px;*/
+ width: 49.5%;
  display: block;
  border: 0.01em solid #000000;
  color: #000000;
