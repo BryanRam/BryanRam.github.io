@@ -119,6 +119,7 @@
 .grad-col{
 	
 	width:100%;
+	
 	//height: 320px;
     border: 1px solid black;
 	
@@ -128,6 +129,7 @@
 .international-col{
 	
 	width:100%;
+	
 	//height: 320px;
     border: 1px solid black;
 }
@@ -195,9 +197,16 @@
 		font-family: Arial, Helvetica, sans-serif;
 	
 	}
+	
+	.student-container{
+		height: 310px;
+	}
+	
 	.undergrad-col{
 	
 	width:33%;
+	height: 100%;
+	max-height: 350px;
 	//height: 320px;
     border: 1px solid black;
 		
@@ -207,6 +216,8 @@
 .grad-col{
 	
 	width:33%;
+	height: 100%;
+	max-height: 350px;
 	//height: 320px;
     border: 1px solid black;
 	
@@ -216,6 +227,8 @@
 .international-col{
 	
 	width:33%;
+	height: 100%;
+	max-height: 350px;
 	//height: 320px;
     border: 1px solid black;
 }
