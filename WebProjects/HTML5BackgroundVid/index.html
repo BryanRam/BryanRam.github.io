@@ -10,7 +10,8 @@
 <![endif]-->
 	
 	 <script src="/includes.js"></script>
-		<link href="backgroundvid.css" rel="stylesheet">
+	 
+		<link href="backgroundvid.css" rel="stylesheet"> 
 </head>
  
 <body>
@@ -28,11 +29,18 @@
 	
 	-->
 	
+	<!--
 	<div style="position: fixed; z-index: -99; width: 100%; height: 100%">
 	<iframe frameborder="0" height="100%" width="100%" 
 		src="https://youtube.com/embed/EpOkSgGeg4k?autoplay=1&controls=0&showinfo=0&autohide=1">
 	</iframe>
 	</div>
+	-->
+	
+	<div id="wrapper">
+	
+	
+	
 	<div class="navbar navbar-default" id="includedContent"> 
 		<!--load html navigation bar through javascript here -->
     </div>
@@ -47,6 +55,8 @@
     	<h4><a href="mailto:bryan_ram@hotmail.com">Email</a></strong></h4>
        	<h4><strong><a href="https://github.com/bryanram">github.com/bryanram</a></strong></h4>
 	</footer>
+	
+	</div>
 
     <!-- Your site ends -->
 
@@ -62,6 +72,13 @@
                 $.material.init();
             });
     </script>
+	
+	<script type="text/javascript" charset="utf-8" src="/dist/js/jquery.tubular.1.0.js"></script>
+	<script>
+	$(document).ready(function() {
+		$('#wrapper').tubular({videoId: 'BPXxdFM32mU'}); // where idOfYourVideo is the YouTube ID.
+	});
+	</script>
 		
 	<script src="/nav.js"></script>
 	
