@@ -26,14 +26,18 @@ background: rgba(0,0,0,0.3);
 }
 
 #content-menu{
-font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+	font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
     font-weight: 100;
     background: rgba(0,0,0,0.3);
     color: white;
     padding: 2rem;
     width: 33%;
     margin: 2rem;
-	font-size: 1.2rem;
+	//font-size: 1.2rem;
+}
+
+#content-menu a{
+	color: white;
 }
 
 #content {
