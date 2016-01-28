@@ -139,6 +139,12 @@
 }	
 }
 
+@media screen and (min-width:611px) and (max-width:865px){
+	.navi{
+		height: height:59.6em;
+	}
+}
+
 @media screen and (min-width:866px){
 #bannertext{
 	font-size:44px;

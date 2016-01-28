@@ -63,11 +63,11 @@
 
 .navi{
 	float: left;
-	height: 100%;
+	height:40.5em;
 	width: 12%;
 	min-width: 80px;
 	border: 1px solid black;
-	background-color: #002753; 
+	background-color: #002753;
 	color: #F7980A;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size:1em;
@@ -144,4 +144,3 @@
 	font-size:11px;
 	font-weight:bold;
 }
-
