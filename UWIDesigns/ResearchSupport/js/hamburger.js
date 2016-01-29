@@ -30,14 +30,17 @@ jQuery(document).ready(function() {
 			jQuery('#contentLayer').css('display', 'block');
 	
 			//disable all scrolling on mobile devices while menu is shown
-			jQuery('.body').bind('touchmove', function(e){e.preventDefault()});
-			jQuery('body').css('overflow-y', 'hidden');
+			//jQuery('.body').bind('touchmove', function(e){e.preventDefault()});
+			//jQuery('body').css('overflow-y', 'hidden');
 			
 			//set margin for the whole container with a jquery UI animation
 			jQuery(".body").animate({"marginTop": ["99px", 'easeOutExpo']}, {
 				duration: 700,
 				start: function(){
-					jQuery('nav').animate({"top": ["0px", "easeOutExpo"]}, { 
+					//jQuery('nav').animate({"top": ["0px", "easeOutExpo"]}, { 
+					//					   duration:130});
+					
+					jQuery('.mobileNav').animate({"height": ["100%", "easeOutExpo"]}, { 
 										   duration:130});
 					jQuery('nav').animate({"z-index": ["1", "easeOutExpo"]}, { 
 										   duration:130});
@@ -57,7 +60,9 @@ jQuery(document).ready(function() {
         jQuery(".body").animate({"marginTop": ["0%", 'easeOutExpo']}, {
             duration: 700,
             start: function() {
-				 jQuery('nav').animate({"top": ["-10%", "easeOutExpo"]}, { 
+				 //jQuery('nav').animate({"top": ["-10%", "easeOutExpo"]}, { 
+				 //					   	duration:130});
+				 jQuery('.mobileNav').animate({"height": ["0px", "easeOutExpo"]}, { 
 										   duration:130});
 				 jQuery('nav').animate({"z-index": ["0", "easeOutExpo"]}, { 
 									   opacity: 0,
@@ -71,7 +76,7 @@ jQuery(document).ready(function() {
             }
         });
 			
-		}
+		} 
 		
 		if (isClicked)
 		{
