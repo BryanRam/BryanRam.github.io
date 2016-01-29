@@ -78,7 +78,7 @@ header {
 using background color is important to cover the menu
 position absolute isset to cover the whole viewport
 */
-.nav{
+.navi{
     background-color: #FFFFFF;
     padding: 52px 10px 10px 10px;
     position: relative;
@@ -159,7 +159,7 @@ The white stripes in the hamburger button
 /*
 The navigation container in the background
 */
-nav {
+.mobileNav {
     left: 0px;
     top: -10%;
     //position: fixed;
@@ -186,14 +186,14 @@ nav {
 /*
 Style the navigation menu
 */
-nav ul {
+.mobileNav ul {
     list-style: none;
     margin: 0;
     width: 100%;
     padding: 0;
 }
 
-nav li {
+.mobileNav li {
     position: relative;
     font-size: 1em;
     font-weight: bold;
@@ -201,7 +201,7 @@ nav li {
     border-top: 1px solid #444444;
     padding: 15px;
 }
-nav li a {
+.mobileNav li a {
     color: #fff;
     text-decoration: none;
 }
