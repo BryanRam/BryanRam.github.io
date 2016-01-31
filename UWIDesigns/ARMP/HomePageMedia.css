@@ -55,7 +55,7 @@ box-shadow: 3px 3px 1px 1px grey;
  background: #FCB03F;
  font-family: Arial;
  font-size: 14px;
- height: 2.7em;
+ height: 3em;
  line-height: 1em;
  float: left;
  width: 12.35%;
@@ -71,7 +71,7 @@ box-shadow: 3px 3px 1px 1px grey;
  #nav-menu li a
  {
  background: #FCB03F;
- height: 2.7em;
+ height: 3em;
  line-height: 2em;
  float: left;
  width: 9em;
