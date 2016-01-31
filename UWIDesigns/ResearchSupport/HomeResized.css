@@ -39,7 +39,7 @@
 
 .doc{
 	float:left;
-	width: 87%;
+	/*width: 87%;*/
 	height: 25%;
 	border: 1px solid black;
 	/*background-color:#F66; */
@@ -77,28 +77,28 @@
 }
 	.fund{
 	float:left;
-	width: 87%;
+	width: 100%;
 	height: 30%;
 	border: 1px solid black;
 }
 
 .apply{
 	float:left;
-	width: 87%;
+	width: 100%;
 	height: 30%;
 	border: 1px solid black;
 }
 
 .work{
 	float:left;
-	width: 87%;
+	width: 100%;
 	height: 30%;
 	border: 1px solid black;
 }
 
 .doc{
 	float:left;
-	width: 87%;
+	/*width: 87%;*/
 	height: 25%;
 	border: 1px solid black;
 	/*background-color:#F66; */
@@ -136,12 +136,47 @@
 
 .body-text{
 	font-size:13px;
-}	
 }
 
-@media screen and (min-width:611px) and (max-width:865px){
+.fund{
+	width: 49.6%;
+}
+
+.apply{
+	width: 49.6%;
+}
+
+.work{
+	width: 100%;
+}
+
+.doc{
+	float: left;
+}
+}
+
+@media screen and (min-width:691px) and (max-width:865px){
 	.navi{
-		height: height:65em;
+		height: 77.7em;
+    	font-size: 0.8em;
+	}
+	
+	.fund{
+		width: 43.2%;
+	}
+	
+	.apply{
+		width: 43.2%;
+	}
+	
+	.work{
+		width: 86.7%;
+	}
+	
+	.doc{
+		width: 86.7%;
+		height: 25%;
+		float: left;
 	}
 }
 
@@ -153,21 +188,24 @@
 
 .fund{
 	float:left;
-	width: 28.5%;
+	/*width: 28.5%;*/
+	width: 29%;
 	height: 30%;
 	border: 1px solid black;
 }
 
 .apply{
 	float:left;
-	width: 28.5%;
+	/*width: 28.5%;*/
+	width: 29%;
 	height: 30%;
 	border: 1px solid black;
 }
 
 .work{
 	float:left;
-	width: 28.5%;
+	/*width: 28.5%;*/
+	width: 29%;
 	height: 30%;
 	border: 1px solid black;
 }
