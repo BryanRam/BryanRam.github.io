@@ -6,8 +6,20 @@
 		height: 1024px;
 	}
 	
+	.body p{
+		font-size: 10px;
+	}
+	
+	.body h3{
+		font-size: 14px;
+	}
+	
 	.navi{
 		display:none;
+	}
+	
+	.welcome{
+		height: 20%;
 	}
 	
 	#bannertext{
@@ -21,7 +33,7 @@
 }
 
 	.middle-section{
-	height: 23.8%;	
+	height: 18%;	
 	}
 	
 	.fund{
@@ -184,6 +196,7 @@
 	.doc{
 		width: 86.7%;
 		/*height: 25%;*/
+		height: auto;
 		float: left;
 	}
 }
@@ -221,7 +234,7 @@
 .doc{
 	/* float:left; */
 	/* width: 68.083%; */
-	/* height: 20%; */
+	 height: auto; 
 	border: 1px solid black;
 	/*background-color:#F66; */
 }
