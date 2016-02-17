@@ -60,7 +60,7 @@
 .doc{
 	float:left;
 	/*width: 87%;*/
-	height: 25%;
+	height: auto;
 	border: 1px solid black;
 	/*background-color:#F66; */
 }
@@ -119,7 +119,7 @@
 .doc{
 	float:left;
 	/*width: 87%;*/
-	height: 25%;
+	height: auto;
 	border: 1px solid black;
 	/*background-color:#F66; */
 }
