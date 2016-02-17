@@ -2,18 +2,19 @@
 /* CSS Document */
 .body{
 	background-color:#FFF;
-      margin-left: auto;
-	  margin-right: auto;
-	  width: 93.75%;
-	  max-width: 959px;
-	  height: 100%;
-	  border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	width: 93.75%;
+	max-width: 959px;
+	/* height: 100%; */
+	height: 900px;
+	/* max-height:  900px; */
+	border: 1px solid black;
 }
 
 .header{
-	height: 5%;
+	height: 14.7%;
 	width: 100%;
-	
 }
 
 .title{
@@ -63,8 +64,8 @@
 
 .navi{
 	float: left;
-	/*height: 100%;*/
-	height:47.1em;
+	height: 85.1%;
+	/* height:47.1em; */
 	width: 12%;
 	min-width: 80px;
 	border: 1px solid black;
@@ -76,7 +77,8 @@
 
 
 .welcome{
-	height: 45%;
+	height: 33%;
+	/* width:  70%; */
 	border: 1px solid black;
 	/*background-color:#CF6;*/
 }
@@ -85,38 +87,46 @@
 	/*padding-top: 1%;*/
 	padding-right: 3%;
 }
+
+.contentArea{
+	height: 85%;
+	/* float:  left; */
+}
+
 .fund{
 	float:left;
 	width: 42%;
-	height: 30%;
+	height: 100%;
 	border: 1px solid black;
 }
 
 .apply{
 	float:left;
 	width: 42%;
-	height: 30%;
+	height: 100%;
 	border: 1px solid black;
 }
 
 .work{
 	float:left;
 	width: 87%;
-	height: 30%;
+	height: 100%;
 	border: 1px solid black;
 }
 
 .doc{
 	/*float:left;*/
-	/*width: 87%;*/
-	height: 25%;
+	width: 100%;
+	height: 33%;
 	/*height: 20%;*/
 	border: 1px solid black;
 	/*background-color:#F66; */
 }
 
 .middle-section{
-		
+		/* border: 1px solid black; */
+		width: 100%;
+		height: 33%;
 }
 
 .center{
