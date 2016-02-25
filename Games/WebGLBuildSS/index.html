@@ -4,11 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | Space Shooter</title>
+	<script src="/includes.js"></script>
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="shortcut icon" href="TemplateData/favicon.ico" />
     <script src="TemplateData/UnityProgress.js"></script>
   </head>
   <body class="template">
+  <div class="navbar navbar-default" id="includedContent"> 
+		<!--load html navigation bar through javascript here -->
+    </div>
+	<h1>BryanRam's Stuff</h1>
     <p class="header"><span>Unity WebGL Player | </span>Space Shooter</p>
     <div class="template-wrap clear">
       <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="700px" width="1024px"></canvas>
@@ -30,5 +35,25 @@
 </script>
 <script src="Release/UnityLoader.js"></script>
 
+ <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+    <script src="../../dist/js/ripples.min.js"></script>
+    <script src="../../dist/js/material.min.js"></script>
+    <script>
+            $(document).ready(function() {
+                // This command is used to initialize some elements and make them work properly
+                $.material.init();
+            });
+    </script>
+	
+	<script type="text/javascript" charset="utf-8" src="/dist/js/jquery.tubular.1.0.js"></script>
+	<script>
+	$(document).ready(function() {
+		$('#wrapper').tubular({videoId: 'BPXxdFM32mU', start: 4.5}); // where idOfYourVideo is the YouTube ID.
+	});
+	</script>
+		
+	<script src="/nav.js"></script>
   </body>
 </html>
