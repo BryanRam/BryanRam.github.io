@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (min-width:250px) and (max-width:349px){
+	.navi{
+		display:none;
+	}
+	
+	#bannertext{
+	font-size: 20px;
+	bottom: 35px;
+}
+	#welcomeresize{
+	height:auto;
+	width:130px;
+	text-align:center;	
+}
+
+	.fund{
+	float:left;
+	width: 87%;
+	height: 30%;
+	border: 1px solid black;
+}
+
+.apply{
+	float:left;
+	width: 87%;
+	height: 30%;
+	border: 1px solid black;
+}
+
+.work{
+	float:left;
+	width: 87%;
+	height: 30%;
+	border: 1px solid black;
+}
+
+.doc{
+	float:left;
+	/*width: 87%;*/
+	height: 25%;
+	border: 1px solid black;
+	/*background-color:#F66; */
+}
+
+.right{
+	font-size:12px;
+	
+	
+	
+}
+
+.body-text{
+	font-size:12px;
+}	
+	
+	
+
+}
+
+
+@media screen and (min-width:350px) and (max-width:480px){
+	.navi{
+		display:none;
+	}
+	
+	#bannertext{
+	font-size: 26px;
+	bottom: 45px;
+}
+	#welcomeresize{
+	height:auto;
+	width:130px;
+	text-align:center;	
+}
+	.fund{
+	float:left;
+	width: 100%;
+	height: 30%;
+	border: 1px solid black;
+}
+
+.apply{
+	float:left;
+	width: 100%;
+	height: 30%;
+	border: 1px solid black;
+}
+
+.work{
+	float:left;
+	width: 100%;
+	height: 30%;
+	border: 1px solid black;
+}
+
+.doc{
+	float:left;
+	/*width: 87%;*/
+	height: 25%;
+	border: 1px solid black;
+	/*background-color:#F66; */
+}
+
+.right{
+	font-size:12px;
+	
+	
+	
+}
+
+.body-text{
+	font-size:12px;
+}	
+	
+	
+
+}
+
+@media screen and (min-width:481px) and (max-width:610px){
+	.navi{
+		font-size:12.5px;;
+		display: none;
+	}
+	#bannertext{
+		font-size: 30px;
+		bottom: 65px;
+	}
+
+	.right{
+	font-size:13px;	
+	
+}
+
+.body-text{
+	font-size:13px;
+}
+
+.fund{
+	width: 49.6%;
+}
+
+.apply{
+	width: 49.6%;
+}
+
+.work{
+	width: 100%;
+}
+
+.doc{
+	float: left;
+}
+}
+
+@media screen and (min-width:691px) and (max-width:865px){
+	.navi{
+		height: 77.7em;
+    	font-size: 0.8em;
+	}
+	
+	.fund{
+		width: 43.2%;
+	}
+	
+	.apply{
+		width: 43.2%;
+	}
+	
+	.work{
+		width: 86.7%;
+	}
+	
+	.doc{
+		width: 86.7%;
+		height: 25%;
+		float: left;
+	}
+}
+
+@media screen and (min-width:866px){
+#bannertext{
+	font-size:44px;
+	bottom: 90px;
+	}
+
+.fund{
+	float:left;
+	/*width: 28.5%;*/
+	width: 29%;
+	height: 30%;
+	border: 1px solid black;
+}
+
+.apply{
+	float:left;
+	/*width: 28.5%;*/
+	width: 29%;
+	height: 30%;
+	border: 1px solid black;
+}
+
+.work{
+	float:left;
+	/*width: 28.5%;*/
+	width: 29%;
+	height: 30%;
+	border: 1px solid black;
+}
+
+.doc{
+	float:left;
+	width: 87%;
+	height: 25%;
+	border: 1px solid black;
+	/*background-color:#F66; */
+}
+	
+	
+
+	
+	
+	
+}

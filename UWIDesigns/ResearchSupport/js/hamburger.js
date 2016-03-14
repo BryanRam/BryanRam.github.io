@@ -40,7 +40,7 @@ jQuery(document).ready(function() {
 					//jQuery('nav').animate({"top": ["0px", "easeOutExpo"]}, { 
 					//					   duration:130});
 					
-					jQuery('.mobileNav').animate({"height": ["100%", "easeOutExpo"]}, { 
+					jQuery('.mobileNav').animate({"height": ["60%", "easeOutExpo"]}, { 
 										   duration:130});
 					jQuery('nav').animate({"z-index": ["1", "easeOutExpo"]}, { 
 										   duration:130});
