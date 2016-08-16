@@ -1,24 +1,85 @@
 ManifestFileVersion: 0
-CRC: 403475074
+CRC: 4169294257
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 18867814a87686ba9cb17470a92b5dc0
+    Hash: b5a280f068918b9a5bdd9628ab750559
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 9f2cc50aba9d6f502b44542825754add
+    Hash: e6d74f2d6b370c4d26f3cae461538e43
 HashAppended: 0
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
 - Class: 4
   Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
 - Class: 23
+  Script: {instanceID: 0}
+- Class: 28
   Script: {instanceID: 0}
 - Class: 33
   Script: {instanceID: 0}
 - Class: 43
   Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
 Assets:
+- Assets/Textures/df3592b1de7ed9b8033f2ec64c8f5c08.jpg
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-0040_Peru.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Material 1.mat
+- Assets/Textures/422932db3f49942c2c43fec164f3f5c1.jpg
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-[Metal_Rough]1.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Color_005.mat
+- Assets/Textures/695210573_169.jpg
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-[Color_007]1.mat
+- Assets/Textures/3e2630c3941e635e020ad2bba90d9f7f.jpg
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-0133_Gray.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-solar-panels-vector3#1.mat
+- Assets/Textures/a81b338bad88e22c30eba2020b089c70.jpg
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Color_002.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-CHERRY.mat
+- Assets/Textures/stone+sandstone+02_d100.png
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-695210573_2.mat
+- Assets/Textures/f6db4f3d223b435f665c75f09224d2b6.jpg
+- Assets/Textures/a29d82de17755dc66b04e479f7a36b93.jpg
 - Assets/Ruben - Carnelian Resort Home - 2.skp
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Color_003.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Translucent_Glass_Gray.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-0057_DarkKhaki.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-_defaultMat.mat
+- Assets/Textures/tiles+01_d100.png
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Color_000.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-2x4_ribbedcumaru#3.mat
+- Assets/Textures/f04ffd085c037da04af8758423666747.jpg
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-tiles+01_d100.mat
+- Assets/Textures/5c2ec99c466f858d1c23cc43d70ae01e.jpg
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-rivage_naturel_b.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-pewter.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-[0128_White]1.mat
+- Assets/Textures/C__Users_Ruben_Desktop_Carnelia House_plan1.jpg
+- Assets/Textures/fbffe69c0a3cad35b504db5d4468cfb3.jpg
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Color_009.mat
+- Assets/Textures/eaef22cc9f76b9429a7113a31ab966b0.jpg
+- Assets/Textures/a7504f3a76a4b234168cf50d8f974d6e.jpg
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Translucent_Glass_Sky_Reflection.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-108--textura1.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Color_E04.mat
+- Assets/Textures/11fbf555ee5e69f99f8ee45a772eecbc.jpg
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-stone+sandstone+02_d100.mat
+- Assets/Textures/108--textura.jpg
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-0072_DarkSeaGreen.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-0128_White.mat
+- Assets/Textures/d586341c8589f34aef6b4c58258975dd.jpg
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-brown-sand-stucco-wall-texture-1#1.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Metal_Rough.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Eternal_Material_-11392_silver_stripe.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Wire Mesh.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Metal_Aluminum_Anodized.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-_Ivory_.mat
+- Assets/Textures/332c9fac70114041fdf74f911879382a.jpg
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Color_006.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-_auto_13#4.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Metal_Corrogated_Shiny.mat
 Dependencies: []
