@@ -1,0 +1,280 @@
+ManifestFileVersion: 0
+CRC: 985439935
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ffb83d360d0d75d5b6256272a1e0a670
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 682d18ec161ce2d3806a6407573c7615
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Materials/Carnelia House-Metal_Corrogated_Shiny.mat
+- Assets/Materials/Steve_Pants.mat
+- Assets/Textures/df3592b1de7ed9b8033f2ec64c8f5c08.jpg
+- Assets/Materials/Carnelia House-0072_DarkSeaGreen.mat
+- Assets/Materials/Palm_Springs_2-Pinnacle TM.mat
+- Assets/Materials/Palm_Springs_2-[Color_002]1.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-0040_Peru.mat
+- Assets/Materials/Carnelia House-Color_009.mat
+- Assets/Textures/ddeb4733b91cbcafa671760893259ab4.jpeg
+- Assets/Materials/Palm_Springs_2-2sided.mat
+- Assets/Materials/Palm_Springs_2-_99#12.mat
+- Assets/Materials/Palm_Springs_2-0131_Silver.mat
+- Assets/Textures/45facc6206c909206970cedcb719a1b8.jpg
+- Assets/Materials/Carnelia House-[Color_007]1.mat
+- Assets/Materials/Palm_Springs_2-0132_LightGray.mat
+- Assets/Materials/Palm_Springs_2-WalBas07.mat
+- Assets/Materials/Palm_Springs_2-Color_008.mat
+- Assets/Materials/Palm_Springs_2-Material~5.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Material 1.mat
+- Assets/Materials/Palm_Springs_2-Image5.mat
+- Assets/Materials/Steve_Hair.mat
+- Assets/Textures/b7e71176761e0b475e02e2c2be02e088.jpg
+- Assets/Materials/Palm_Springs_2-[0135_DarkGray]2.mat
+- Assets/Textures/380d5856dd99929310abfd181107cab5.jpg
+- Assets/Materials/Palm_Springs_2-_5.mat
+- Assets/Materials/Roofing_Shingles_GAF_Estates.mat
+- Assets/Materials/Palm_Springs_2-_LightGray_.mat
+- Assets/Materials/Palm_Springs_2-_99#5.mat
+- Assets/Textures/422932db3f49942c2c43fec164f3f5c1.jpg
+- Assets/Materials/Palm_Springs_2-SydBas03.mat
+- Assets/Materials/Palm_Springs_2-Material 50.mat
+- Assets/Materials/Steve_Shoes2.mat
+- Assets/Materials/Palm_Springs_2-ArmGra01hue.mat
+- Assets/Materials/Steve_Glasses_Amber.mat
+- Assets/Materials/Palm_Springs_2-TDtrnk_D.mat
+- Assets/Textures/81186e5c209b9190a312f37a32386ef0.jpg
+- Assets/Textures/9ff922d5a0ec3135311d78616acb531c.jpg
+- Assets/Textures/a4b23dcfadf9f3fbbdf9d3cada7ec5d2.jpg
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-[Metal_Rough]1.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Color_005.mat
+- Assets/Textures/695210573_169.jpg
+- Assets/Textures/23b73d0c59cd6afa127b067eb8a334a2.jpg
+- Assets/Materials/Palm_Springs_2-SydBas04_copy01.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-[Color_007]1.mat
+- Assets/Textures/3e2630c3941e635e020ad2bba90d9f7f.jpg
+- Assets/Textures/0302ec5e0b4de10a6078f364a92520d0.jpg
+- Assets/Materials/Palm_Springs_2-9_concrete bare clean texture-seamless.mat
+- Assets/Materials/Palm_Springs_2-Caphor Tree Leaf Texture SU.mat
+- Assets/Materials/Carnelia House-0040_Peru.mat
+- Assets/Materials/Carnelia House-_auto_13#4.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-0133_Gray.mat
+- Assets/Materials/Carnelia House-108--textura1.mat
+- Assets/Materials/Palm_Springs_2-rvs4.mat
+- Assets/Materials/Palm_Springs_2-_99#7.mat
+- Assets/Materials/Carnelia House-[0128_White]1.mat
+- Assets/Materials/Palm_Springs_2-_99#17.mat
+- Assets/Materials/Palm_Springs_2-_9.mat
+- Assets/Materials/Palm_Springs_2-WalBas07_copy01.mat
+- Assets/Materials/Palm_Springs_2-waterPOOL.mat
+- Assets/Textures/a78797c63046248d01055c2dedaf790d.jpg
+- Assets/Textures/ad35a67abfa83a4bfe098c1a85343310.jpg
+- Assets/Textures/1613fbf0630d91167a0beb9902aacae1.jpg
+- Assets/Materials/Palm_Springs_2-Fond du Lac Ledgestone.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-solar-panels-vector3#1.mat
+- Assets/Materials/Palm_Springs_2-_99#4.mat
+- Assets/Materials/Palm_Springs_2-[Color_000]2.mat
+- Assets/Textures/15c7aa4c4caee1f4a9b60baca4f48d21.jpg
+- Assets/Textures/a81b338bad88e22c30eba2020b089c70.jpg
+- Assets/Materials/Palm_Springs_2-SydBas11.mat
+- Assets/Materials/Carnelia House-2x4_ribbedcumaru#3.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Color_002.mat
+- Assets/Textures/e4da4afc7aef4e77f4f138b607d4c7cb.jpg
+- Assets/Materials/Palm_Springs_2-_6.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-CHERRY.mat
+- Assets/Materials/material.mat
+- Assets/Materials/Carnelia House-[Metal_Rough]1.mat
+- Assets/Textures/stone+sandstone+02_d100.png
+- Assets/Materials/Palm_Springs_2-0133_Gray.mat
+- Assets/Materials/Palm_Springs_2-_3.mat
+- Assets/Materials/Carnelia House-Metal_Rough.mat
+- Assets/Materials/Palm_Springs_2-Mill Creek Colonial Blend.mat
+- Assets/Materials/Palm_Springs_2-_8.mat
+- Assets/Materials/Carnelia House-Groundcover_Sand_Smooth.mat
+- Assets/Materials/Palm_Springs_2-[Color_D05]1.mat
+- Assets/Textures/29ccc70965c91e86ed4f3b65766f18c9.jpg
+- Assets/Textures/ae6eac98bfd9e959780181f0ec758fcc.jpg
+- Assets/Materials/Roofing_Shingles_Variable.mat
+- Assets/Materials/Palm_Springs_2-_99#20.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-695210573_2.mat
+- Assets/Textures/dabb1c9758d7163db378df765aa7f78d.jpg
+- Assets/Materials/Palm_Springs_2-_10.mat
+- Assets/Materials/Carnelia House-stone+sandstone+02_d100.mat
+- Assets/Textures/bc553e4f6dac862c26a79bdcfaf64d08.jpg
+- Assets/Materials/Palm_Springs_2-[Color_000]4.mat
+- Assets/Materials/Carnelia House-Color_E04.mat
+- Assets/Materials/Steve_Edges.mat
+- Assets/Textures/0943bd4eb2164628f82c3f11d720508d.jpg
+- Assets/Materials/Carnelia House-brown-sand-stucco-wall-texture-1#1.mat
+- Assets/Textures/c495632cbb9dbb82ad6d944ce08e90c1.jpg
+- Assets/Materials/Palm_Springs_2-Feather Top TM.mat
+- Assets/Textures/f6db4f3d223b435f665c75f09224d2b6.jpg
+- Assets/Materials/Carnelia House-Eternal_Material_-11392_silver_stripe.mat
+- Assets/Materials/Translucent_Glass_Safety.mat
+- Assets/Materials/Carnelia House-Color_006.mat
+- Assets/Textures/a29d82de17755dc66b04e479f7a36b93.jpg
+- Assets/Materials/Carnelia House-Color_000.mat
+- Assets/Materials/Carnelia House-695210573_2.mat
+- Assets/Materials/Carnelia House-CHERRY.mat
+- Assets/Materials/Carnelia House-_defaultMat.mat
+- Assets/Materials/Palm_Springs_2-monument.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Color_003.mat
+- Assets/Textures/8ab70734a897a82d47d851d449bc03e8.jpg
+- Assets/Materials/Palm_Springs_2-Material~6.mat
+- Assets/Materials/Steve_Jacket.mat
+- Assets/Textures/51802f87bfc37ee205e9b567a4708bf1.jpg
+- Assets/Textures/7d1e442d1b0935ec5abe5a21587ba8fd.jpg
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Translucent_Glass_Gray.mat
+- Assets/Materials/Palm_Springs_2-[0135_DarkGray]1.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-0057_DarkKhaki.mat
+- Assets/Materials/Palm_Springs_2-_34.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-_defaultMat.mat
+- Assets/Materials/Palm_Springs_2-_99#15.mat
+- Assets/Textures/9f792f2c9e98fd4039082fa19ea7cd20.jpg
+- Assets/Textures/bb34e9bf1ce3d8b644570e3bad37afb2.jpg
+- Assets/Textures/79275e36dadf1b66855c91497dbc611e.jpg
+- Assets/Textures/tiles+01_d100.png
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Color_000.mat
+- Assets/Materials/Palm_Springs_2-SydBas01.mat
+- Assets/Materials/Carnelia House-0057_DarkKhaki.mat
+- Assets/Textures/2632cea7b8a61a550725c12432f61aba.jpg
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-2x4_ribbedcumaru#3.mat
+- Assets/Materials/Carnelia House-Color_002.mat
+- Assets/Textures/2ca30c58bc85d37e9ce34e6b1840815f.png
+- Assets/Textures/681a3923cce77ebda3513a58b8e80166.jpg
+- Assets/Textures/f04ffd085c037da04af8758423666747.jpg
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-tiles+01_d100.mat
+- Assets/Materials/Palm_Springs_2-Translucent_Glass_Gray.mat
+- Assets/Textures/e9cefa5f1edd73efd09d4b9ba126cde4.jpg
+- Assets/Textures/5c2ec99c466f858d1c23cc43d70ae01e.jpg
+- Assets/Materials/Palm_Springs_2-_defaultMat.mat
+- Assets/Textures/GRASS.JPG
+- Assets/Textures/afcab3d75e014d0bf36d709a15d77073.jpg
+- Assets/Materials/Carnelia House-Color_003.mat
+- Assets/Textures/02fbc915c0e11edf68b49da3532b8fad.jpg
+- Assets/Textures/66dfa0be176d2f698a5e2744bda1152e.jpeg
+- Assets/Materials/Palm_Springs_2-_99#9.mat
+- Assets/Materials/Palm_Springs_2-deck-teak-tiles.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-rivage_naturel_b.mat
+- Assets/Materials/Palm_Springs_2-SydBas14.mat
+- Assets/Carnelia House.skp
+- Assets/Materials/Palm_Springs_2-_99.mat
+- Assets/Materials/Palm_Springs_2-Color_000.mat
+- Assets/Materials/Palm_Springs_2-SydBas10.mat
+- Assets/Materials/Palm_Springs_2-[Color_009]1.mat
+- Assets/Materials/Palm_Springs_2-_11.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-pewter.mat
+- Assets/Materials/Carnelia House-pewter.mat
+- Assets/Textures/87e7072891b74935219c300de575a699.jpg
+- Assets/Textures/a81653d18f6dab47db9231641d305191.jpg
+- Assets/Materials/Carnelia House-solar-panels-vector3#1.mat
+- Assets/Materials/Palm_Springs_2-_12.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 3-2x4_ribbedcumaru#3.mat
+- Assets/Materials/Palm_Springs_2-_99#11.mat
+- Assets/Materials/Carnelia House-Metal_Aluminum_Anodized.mat
+- Assets/Textures/6-formal-vinyl-floor-wood-grain-pattern-wood-floor-stencil-designs-wood-floor-stain-designs-wood-floor-stain-patterns-moroccan-wood-floor-tiles-sextant-pattern-wood-and-stone-floor-patterns-woo.jpg
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-[0128_White]1.mat
+- Assets/Textures/C__Users_Ruben_Desktop_Carnelia House_plan1.jpg
+- Assets/Textures/2954e4a32a87e1c4c73b998d97ebd601.jpg
+- Assets/Materials/Carnelia House-rivage_naturel_b.mat
+- Assets/Materials/Carnelia House-GRASS.mat
+- Assets/Materials/Palm_Springs_2-TDshdw_D.mat
+- Assets/Materials/Palm_Springs_2-chrome.mat
+- Assets/Materials/Steve_Jacket2.mat
+- Assets/Textures/fbffe69c0a3cad35b504db5d4468cfb3.jpg
+- Assets/Textures/MINIMAL-SILVER1.jpg
+- Assets/Materials/Carnelia House-0128_White.mat
+- Assets/Materials/Palm_Springs_2-0040_Peru.mat
+- Assets/Textures/d0b4fe59fcf35e17c676e6b1ed4210ba.jpg
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Color_009.mat
+- Assets/Textures/5dfe905746d811fe3f0ab2b090d54b2e.png
+- Assets/Materials/Palm_Springs_2-[Color_002]2.mat
+- Assets/Textures/7c5a9e30c6be1a5362161c636fff1d48.jpg
+- Assets/Materials/Palm_Springs_2-_99#18.mat
+- Assets/Materials/Palm_Springs_2-_99#19.mat
+- Assets/Textures/eaef22cc9f76b9429a7113a31ab966b0.jpg
+- Assets/Textures/eb6a505d85c9b7b80f76b6c170235549.jpg
+- Assets/Textures/a7504f3a76a4b234168cf50d8f974d6e.jpg
+- Assets/Materials/Palm_Springs_2-Color_003.mat
+- Assets/Materials/Steve_Glasses_Black.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Translucent_Glass_Sky_Reflection.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-108--textura1.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Color_E04.mat
+- Assets/Textures/f1e32a90ad0bab8e6e65a145d3afb1b3.png
+- Assets/Materials/Palm_Springs_2-_14.mat
+- Assets/Materials/Palm_Springs_2-caselio-b-w-gecapitonneerd-wit-grijs.mat
+- Assets/Textures/11fbf555ee5e69f99f8ee45a772eecbc.jpg
+- Assets/Materials/Carnelia House-waterPOOL.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-stone+sandstone+02_d100.mat
+- Assets/Textures/108--textura.jpg
+- Assets/Materials/Palm_Springs_2-Material~3.mat
+- Assets/Materials/Palm_Springs_2-[Color_000]1.mat
+- Assets/Textures/70f829fce9edaddc7caf606d058a3558.jpg
+- Assets/Textures/5fdb344ca1d98086c68364d2f4fea1ef.jpg
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-0072_DarkSeaGreen.mat
+- Assets/Materials/Carnelia House-0133_Gray.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-0128_White.mat
+- Assets/Materials/Palm_Springs_2-6-formal-vinyl-floor-wood-grain-pattern-wood-floor-stencil-designs-wood-floor-stain-designs-wood-floor-stain-patterns-moroccan-wood-floor-tiles-sextant-pattern-wood-and-stone-floor-patterns-woo.mat
+- Assets/Materials/Palm_Springs_2-Screenshot_7#1.mat
+- Assets/Materials/Carnelia House-_Ivory_.mat
+- Assets/Textures/c2ccc9b5b242073653d59f4582f70b18.jpg
+- Assets/Materials/Palm_Springs_2-0135_DarkGray.mat
+- Assets/Materials/Steve_Skin.mat
+- Assets/Textures/d586341c8589f34aef6b4c58258975dd.jpg
+- Assets/Materials/Steve_Book.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-brown-sand-stucco-wall-texture-1#1.mat
+- Assets/Textures/b60d62da6c89c499b8b72ae648d8cd90.jpg
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Metal_Rough.mat
+- Assets/Materials/Palm_Springs_2-brown-sand-stucco-wall-texture-1#1.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Eternal_Material_-11392_silver_stripe.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Wire Mesh.mat
+- Assets/Textures/33365fc12b6390b8f40d6e1e0789e08f.jpg
+- Assets/Textures/c149ee8f5f2a8f9a6e3cd7cc67ad5851.jpg
+- Assets/Textures/3977334ab9178af3242790ce38b8793d.png
+- Assets/Materials/Palm_Springs_2-bifold hardware.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Metal_Aluminum_Anodized.mat
+- Assets/Materials/Palm_Springs_2-_7.mat
+- Assets/Materials/Carnelia House-Translucent_Glass_Sky_Reflection.mat
+- Assets/Textures/C__Users_Ruben_AppData_Local_Temp_ChaosGroupTextureCache_3a724d57b75edf8915fd4d6709282479.png
+- Assets/Materials/Palm_Springs_2-_100.mat
+- Assets/Materials/Palm_Springs_2-Orange.mat
+- Assets/Textures/6351ec9b845fa5e1755aec1271ade0fd.jpg
+- Assets/Materials/Palm_Springs_2-SydnBas08.mat
+- Assets/Materials/Carnelia House-Asphalt_New.mat
+- Assets/Textures/84fad3d30ee76e40c790d4a958f57440.jpg
+- Assets/Materials/Steve_Shirt.mat
+- Assets/Materials/Palm_Springs_2-Wood_Bamboo_Medium.mat
+- Assets/Materials/Steve_Shoes.mat
+- Assets/Textures/cbcfc5a37a8c93925621204b96eabc30.jpg
+- Assets/Materials/Palm_Springs_2-Material~2.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-_Ivory_.mat
+- Assets/Materials/Translucent_Glass_Blue.mat
+- Assets/Materials/Carnelia House-Translucent_Glass_Gray.mat
+- Assets/Textures/332c9fac70114041fdf74f911879382a.jpg
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Color_006.mat
+- Assets/Materials/Palm_Springs_2-_99#10.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-_auto_13#4.mat
+- Assets/Materials/Carnelia House-tiles+01_d100.mat
+- Assets/Materials/Carnelia House-[Color_000]1.mat
+- Assets/Textures/d7082f929faf1d19395a09edbcd994ab.jpg
+- Assets/Materials/Palm_Springs_2-SydBas04.mat
+- Assets/Materials/Ruben - Carnelian Resort Home - 2-Metal_Corrogated_Shiny.mat
+Dependencies: []
